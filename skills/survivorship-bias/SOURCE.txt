@@ -1,0 +1,2 @@
+Source: https://github.com/ml4t/skills @ 8800d3f
+Installed from TradePilot/skills on 2026-10-21. Unmodified upstream content.

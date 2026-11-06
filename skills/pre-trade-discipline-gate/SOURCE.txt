@@ -1,0 +1,2 @@
+Source: https://github.com/tradermonty/claude-trading-skills @ cb0f3aa
+Installed from TradePilot/skills on 2026-10-21. Unmodified upstream content.
