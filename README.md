@@ -27,7 +27,7 @@ To update later: `cd ~/claude-kit && git pull`, then copy the skills again.
     requesting-code-review; webapp-testing (Anthropic, Apache 2.0).
   - Trading (paper only; ml4t/skills Apache 2.0, tradermonty MIT): position-sizer, pre-trade-discipline-gate,
     backtest-overfitting, lookahead-bias, point-in-time, regime-awareness, survivorship-bias, transaction-costs.
-- Also included for Yair's own use (private repo; do not republish publicly, licences unclear): animate,
+- Also included (Yair chose to share them here; credit their original authors where known): animate,
   emil-design-eng, design-taste-frontend (github.com/Leonxlnx/taste-skill), redesign-existing-projects,
   improve-animations, review-animations, audit-context-building, differential-review, sharp-edges,
   variant-analysis, post-patch-validation, semgrep, wp-plugin-development, wp-project-triage.
