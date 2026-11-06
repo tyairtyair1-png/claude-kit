@@ -19,7 +19,7 @@ To update later: `cd ~/claude-kit && git pull`, then copy the skills again.
   automatic model choice (Opus for decisions/specs, Sonnet for building, haiku for search), token economy, safety.
 - `rules/`: his general writing and work rules (natural Hebrew copywriting, Hebrew in every line, send previews as
   images, borrow competitors' ideas never their words). Read them before writing Hebrew copy.
-- `skills/`: his skills that carry an open licence (MIT / Apache 2.0, each keeps its LICENSE):
+- `skills/`: his skills (openly licensed ones keep their LICENSE):
   - Design: impeccable, frontend-design, hallmark.
   - Figures: anatomy (interactive isometric explainers; MIT, github.com/wheresryan22/anatomy @1482e84; never publish to
     its gallery unless Yair asks).
@@ -27,10 +27,10 @@ To update later: `cd ~/claude-kit && git pull`, then copy the skills again.
     requesting-code-review; webapp-testing (Anthropic, Apache 2.0).
   - Trading (paper only; ml4t/skills Apache 2.0, tradermonty MIT): position-sizer, pre-trade-discipline-gate,
     backtest-overfitting, lookahead-bias, point-in-time, regime-awareness, survivorship-bias, transaction-costs.
-- Not included here (no clear licence to republish; Yair has them on his own machines): animate, emil-design-eng,
-  design-taste-frontend (github.com/Leonxlnx/taste-skill), redesign-existing-projects, improve-animations,
-  review-animations, audit-context-building, differential-review, sharp-edges, variant-analysis,
-  post-patch-validation, semgrep, wp-plugin-development, wp-project-triage.
+- Also included for Yair's own use (private repo; do not republish publicly, licences unclear): animate,
+  emil-design-eng, design-taste-frontend (github.com/Leonxlnx/taste-skill), redesign-existing-projects,
+  improve-animations, review-animations, audit-context-building, differential-review, sharp-edges,
+  variant-analysis, post-patch-validation, semgrep, wp-plugin-development, wp-project-triage.
 - `anatomy-example-spec.md`: the Matan donation-machine spec, an example of how to brief Anatomy well.
 
 Each project keeps its own rules in its repo's CLAUDE.md and memory. Never mix projects' rules.
