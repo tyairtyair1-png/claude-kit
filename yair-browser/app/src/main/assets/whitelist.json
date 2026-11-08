@@ -7,6 +7,24 @@
    ]
   },
   {
+   "name": "דואר אלקטרוני",
+   "domains": [
+    "mail.google.com",
+    "outlook.live.com",
+    "outlook.office.com",
+    "mail.yahoo.com",
+    "mail.walla.co.il",
+    "www.icloud.com",
+    "mail.proton.me",
+    "mail.netvision.net.il",
+    "mail.zahav.net.il",
+    "mail.aol.com",
+    "www.mail.com",
+    "mail.zoho.com",
+    "app.tuta.com"
+   ]
+  },
+  {
    "name": "שידוכים",
    "domains": [
     "hashadchan.co.il",
@@ -169,6 +187,33 @@
   "cdn.perfdrive.com",
   "validate.perfdrive.com",
   "cdnjs.cloudflare.com",
-  "cdn.jsdelivr.net"
+  "cdn.jsdelivr.net",
+  "mail-attachment.googleusercontent.com",
+  "outlook.cloud.microsoft",
+  "res.public.onecdn.static.microsoft",
+  "logincdn.msauth.net",
+  "login.yahoo.com",
+  "s.yimg.com",
+  "guce.yahoo.com",
+  "consent.cmp.oath.com",
+  "friends.walla.co.il",
+  "api-friends.walla.co.il",
+  "api-mail.walla.co.il",
+  "js.nagich.co.il",
+  "setup.icloud.com",
+  "appleid.apple.com",
+  "idmsa.apple.com",
+  "appleid.cdn-apple.com",
+  "proton.me",
+  "account.proton.me",
+  "account-api.proton.me",
+  "pmecdn.protonweb.com",
+  "dl.mail.com",
+  "s.uicdn.com",
+  "tuta.com",
+  "static.zohocdn.com",
+  "www.zohowebstatic.com",
+  "accounts.zoho.com",
+  "www.zoho.com"
  ]
 }
