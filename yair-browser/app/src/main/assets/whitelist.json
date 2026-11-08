@@ -158,6 +158,31 @@
     "marathonx.co.il",
     "matan-demo.onrender.com"
    ]
+  },
+  {
+   "name": "זמנים והלכה",
+   "domains": [
+    "hebcal.com",
+    "myzmanim.com",
+    "halachayomit.co.il",
+    "dafyomi.co.il",
+    "dinonline.org",
+    "torah.org",
+    "chabad.org.il",
+    "chabad.org",
+    "yutorah.org",
+    "kolhalashon.com",
+    "rabanut.co.il",
+    "amudanan.co.il"
+   ]
+  },
+  {
+   "name": "בריאות והצלה",
+   "domains": [
+    "szmc.org.il",
+    "hadassah.org.il",
+    "zaka.org.il"
+   ]
   }
  ],
  "infra": [
