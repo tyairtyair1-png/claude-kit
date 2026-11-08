@@ -1,0 +1,323 @@
+# דומיינים שהתגלו בטעינת דפי הבית (headless, ללא התחברות) — ממתינים לאישור פרטני
+# הדומיינים הללו חסומים באפליקציה עד שתאשר כל אחד בנפרד.
+
+www.googletagmanager.com	<- mekudeshet.co.il, shidduchsmart.com, 7brachot.co.il, leumi.co.il +20
+	<- marry.org.il, discountbank.co.il, onezerobank.com, mercantile.co.il +14
+www.google.com	<- 7brachot.co.il, leumi.co.il, mizrahi-tefahot.co.il, discountbank.co.il +13
+fonts.googleapis.com	<- mekudeshet.co.il, beshahatova.com, shidduchsmart.com, leumi.co.il +12
+fonts.gstatic.com	<- mekudeshet.co.il, shidduchsmart.com, leumi.co.il, mizrahi-tefahot.co.il +12
+analytics.google.com	<- leumi.co.il, mizrahi-tefahot.co.il, discountbank.co.il, mercantile.co.il +9
+googleads.g.doubleclick.net	<- mekudeshet.co.il, 7brachot.co.il, leumi.co.il, mizrahi-tefahot.co.il +9
+stats.g.doubleclick.net	<- leumi.co.il, mizrahi-tefahot.co.il, discountbank.co.il, mercantile.co.il +9
+ad.doubleclick.net	<- 7brachot.co.il, leumi.co.il, mizrahi-tefahot.co.il, discountbank.co.il +8
+connect.facebook.net	<- 7brachot.co.il, leumi.co.il, mizrahi-tefahot.co.il, mercantile.co.il +8
+www.google-analytics.com	<- mekudeshet.co.il, shidduchsmart.com, 7brachot.co.il, discountbank.co.il +7
+www.gstatic.com	<- isracard.co.il, paypal.com, maccabi4u.co.il, leumit.co.il +6
+static.cloudflareinsights.com	<- hameorasim.com, goldate.co.il, beshahatova.com, shidduchsmart.com +5
+accounts.google.com	<- beshahatova.com, shidduchsmart.com, gmail.com, drive.google.com +3
+cdn.taboola.com	<- leumi.co.il, mercantile.co.il, meuhedet.co.il, maccabi4u.co.il +2
+challenges.cloudflare.com	<- onezerobank.com, kolzchut.org.il, rail.co.il, madlan.co.il +2
+scripts.clarity.ms	<- maccabi4u.co.il, boi.org.il, office.com, microsoft365.com +2
+trc.taboola.com	<- leumi.co.il, mercantile.co.il, meuhedet.co.il, maccabi4u.co.il +2
+www.clarity.ms	<- maccabi4u.co.il, boi.org.il, office.com, microsoft365.com +2
+cdn.jsdelivr.net	<- maagarshiduchim.com, mizrahi-tefahot.co.il, cellcom.co.il, zoom.us +1
+pagead2.googlesyndication.com	<- mekudeshet.co.il, partner.co.il, wetransfer.com, icar.co.il +1
+analytics-ipv6.tiktokw.us	<- isracard.co.il, meuhedet.co.il, maccabi4u.co.il, hidabroot.org
+analytics.tiktok.com	<- isracard.co.il, meuhedet.co.il, maccabi4u.co.il, hidabroot.org
+api.hcaptcha.com	<- leumi.co.il, fibi.co.il, bankjerusalem.co.il, yad2.co.il
+c.clarity.ms	<- maccabi4u.co.il, boi.org.il, onedrive.live.com, wetransfer.com
+cas.avalon.perfdrive.com	<- leumi.co.il, fibi.co.il, bankjerusalem.co.il, yad2.co.il
+cdn.perfdrive.com	<- leumi.co.il, fibi.co.il, bankjerusalem.co.il, yad2.co.il
+hcaptcha.com	<- leumi.co.il, fibi.co.il, bankjerusalem.co.il, yad2.co.il
+newassets.hcaptcha.com	<- leumi.co.il, fibi.co.il, bankjerusalem.co.il, yad2.co.il
+securepubads.g.doubleclick.net	<- wetransfer.com, icar.co.il, kipa.co.il, hidabroot.org
+validate.perfdrive.com	<- leumi.co.il, fibi.co.il, bankjerusalem.co.il, yad2.co.il
+www.youtube.com	<- mizrahi-tefahot.co.il, discountbank.co.il, maccabi4u.co.il, boi.org.il
+amplify.outbrain.com	<- mercantile.co.il, meuhedet.co.il, maccabi4u.co.il
+browser.sentry-cdn.com	<- isracard.co.il, payboxapp.com, boi.org.il
+cdn.gbqofs.com	<- leumit.co.il, iec.co.il, cellcom.co.il
+cdnjs.cloudflare.com	<- iec.co.il, icar.co.il, kavhalacha.co.il
+ep1.adtrafficquality.google	<- mekudeshet.co.il, icar.co.il, kipa.co.il
+gum.criteo.com	<- maccabi4u.co.il, icar.co.il, kipa.co.il
+i.ytimg.com	<- mizrahi-tefahot.co.il, boi.org.il, waze.com
+px.ads.linkedin.com	<- cellcom.co.il, zoom.us, kipa.co.il
+res.cdn.office.net	<- boi.org.il, office.com, microsoft365.com
+ssl.gstatic.com	<- gmail.com, drive.google.com, docs.google.com
+tr.outbrain.com	<- mercantile.co.il, meuhedet.co.il, maccabi4u.co.il
+uhf.microsoft.com	<- office.com, microsoft365.com, onedrive.live.com
+wave.outbrain.com	<- mercantile.co.il, meuhedet.co.il, maccabi4u.co.il
+wcpstatic.microsoft.com	<- office.com, microsoft365.com, onedrive.live.com
+www.googleadservices.com	<- mercantile.co.il, isracard.co.il, meuhedet.co.il
+analytics.getlimy.ai	<- leumi.co.il, maccabi4u.co.il
+analytics.twitter.com	<- zoom.us, kipa.co.il
+bat.bing.com	<- wetransfer.com, zoom.us
+bzr.openai.com	<- cellcom.co.il, zoom.us
+bzrcdn.openai.com	<- cellcom.co.il, zoom.us
+captcha.perfdrive.com	<- leumi.co.il, bankjerusalem.co.il
+cdn.cookielaw.org	<- leumi.co.il, zoom.us
+cdn.enable.co.il	<- mekudeshet.co.il, kipa.co.il
+cdn2.gbqofs.com	<- maccabi4u.co.il, leumit.co.il
+cm.g.doubleclick.net	<- icar.co.il, kipa.co.il
+csp.withgoogle.com	<- partner.co.il, waze.com
+dsum-sec.casalemedia.com	<- zoom.us, kipa.co.il
+frog.wix.com	<- isracard.co.il, payboxapp.com
+fundingchoicesmessages.google.com	<- icar.co.il, kipa.co.il
+geolocation.onetrust.com	<- leumi.co.il, zoom.us
+ib.adnxs.com	<- maccabi4u.co.il, kipa.co.il
+id.rlcdn.com	<- zoom.us, kipa.co.il
+js.monitor.azure.com	<- boi.org.il, onedrive.live.com
+kit.fontawesome.com	<- mekudeshet.co.il, 7brachot.co.il
+m365.cloud.microsoft	<- office.com, microsoft365.com
+panorama.wixapps.net	<- isracard.co.il, payboxapp.com
+pixel.rubiconproject.com	<- zoom.us, kipa.co.il
+poosh.wizzo.media	<- 7brachot.co.il, hidabroot.org
+s.amazon-adsystem.com	<- zoom.us, kipa.co.il
+sdk.getlimy.ai	<- leumi.co.il, maccabi4u.co.il
+siteassets.parastorage.com	<- isracard.co.il, payboxapp.com
+snap.licdn.com	<- cellcom.co.il, zoom.us
+static.ads-twitter.com	<- zoom.us, kipa.co.il
+static.parastorage.com	<- isracard.co.il, payboxapp.com
+t.co	<- zoom.us, kipa.co.il
+tpc.googlesyndication.com	<- icar.co.il, kipa.co.il
+trc-events.taboola.com	<- meuhedet.co.il, kipa.co.il
+widgetapi.zoomengage.com	<- maccabi4u.co.il, cellcom.co.il
+widgetcdn.zoomengage.com	<- maccabi4u.co.il, cellcom.co.il
+widgetver.zoomengage.com	<- maccabi4u.co.il, cellcom.co.il
+wizzo.market	<- 7brachot.co.il, hidabroot.org
+www.googletagservices.com	<- icar.co.il, hidabroot.org
+www.linkedin.com	<- cellcom.co.il, zoom.us
+10057174.fls.doubleclick.net	<- maccabi4u.co.il
+13040687.fls.doubleclick.net	<- maccabi4u.co.il
+281d87c53d4f.w.hcaptcha.com	<- leumi.co.il
+2f08479c12a4.w.hcaptcha.com	<- bankjerusalem.co.il
+2f2d8dcf3e16.w.hcaptcha.com	<- bankjerusalem.co.il
+44.228.85.26	<- zoom.us
+4694204.fls.doubleclick.net	<- leumi.co.il
+47031dfafed540bb2944c9f814a4c6f3.safeframe.googlesyndication.com	<- kipa.co.il
+4dee3de69568.w.hcaptcha.com	<- fibi.co.il
+5074931.fls.doubleclick.net	<- isracard.co.il
+511d767f9cb1.w.hcaptcha.com	<- yad2.co.il
+63b61f000802.w.hcaptcha.com	<- yad2.co.il
+8083177.fls.doubleclick.net	<- leumi.co.il
+812f7381fbc2.72d5ea1a.us-east-1.token.awswaf.com	<- moovitapp.com
+9513928.fls.doubleclick.net	<- zoom.us
+a.clarity.ms	<- office.com
+a20673560014.cdn.optimizely.com	<- zoom.us
+a2d6374cbcb9.w.hcaptcha.com	<- leumi.co.il
+accdn-vip.lpsnmedia.net	<- onedrive.live.com
+ajax.googleapis.com	<- cellcom.co.il
+alb.reddit.com	<- zoom.us
+amplifypixel.outbrain.com	<- leumi.co.il
+ams.creativecdn.com	<- maccabi4u.co.il
+ams46.creativecdn.com	<- maccabi4u.co.il
+api.company-target.com	<- zoom.us
+api.userway.org	<- marry.org.il
+app.powerbi.com	<- boi.org.il
+apps.google.com	<- meet.google.com
+assets.adobedtm.com	<- onedrive.live.com
+assets.humanz.com	<- cellcom.co.il
+az416426.vo.msecnd.net	<- boi.org.il
+b3r8qn-9c7c2afaa78b9dc6-isracard.wix-host.com	<- isracard.co.il
+bba1b695a454.w.hcaptcha.com	<- fibi.co.il
+bd9e43cb0901.w.hcaptcha.com	<- leumi.co.il
+beacon.lynx.cognitivlabs.com	<- kipa.co.il
+beacon.smoove.io	<- boi.org.il
+beacon.taboola.com	<- kipa.co.il
+broadcast.adpronet.com	<- kavhalacha.co.il
+browser-intake-us5-datadoghq.com	<- paypal.com
+browser.events.data.microsoft.com	<- onedrive.live.com
+bundler-velo.parastorage.com	<- isracard.co.il
+butterfly-button.web.app	<- maccabi4u.co.il
+c.amazon-adsystem.com	<- zoom.us
+c.contentsquare.net	<- zoom.us
+c.s-microsoft.com	<- onedrive.live.com
+c132d269a3b835e939792ac64698203a.safeframe.googlesyndication.com	<- icar.co.il
+c2.taboola.com	<- kipa.co.il
+c8589d2e117c.w.hcaptcha.com	<- leumi.co.il
+cache.bankleumi.co.il	<- leumi.co.il
+capi.connatix.com	<- kipa.co.il
+cdn-dynmedia-1.microsoft.com	<- onedrive.live.com
+cdn.amplitude.com	<- zoom.us
+cdn.bc0a.com	<- zoom.us
+cdn.glassboxcdn.com	<- cellcom.co.il
+cdn.metadata.io	<- zoom.us
+cdn.onesignal.com	<- kavhalacha.co.il
+cdn.optimizely.com	<- zoom.us
+cdn.pushwoosh.com	<- kipa.co.il
+cdn.scarabresearch.com	<- partner.co.il
+cdn.userway.org	<- marry.org.il
+cdn.valuad.cloud	<- kipa.co.il
+ce.lijit.com	<- kipa.co.il
+center.icreate-campaign.com	<- mizrahi-tefahot.co.il
+cf.dxmcdn.com	<- maccabi4u.co.il
+cfl.dropboxstatic.com	<- dropbox.com
+checkip.amazonaws.com	<- isracard.co.il
+cms.quantserve.com	<- kipa.co.il
+collector-29673.us.tvsquared.com	<- zoom.us
+consent.cookiebot.com	<- iec.co.il
+consentcdn.cookiebot.com	<- iec.co.il
+content.powerapps.com	<- boi.org.il
+content.vp4.me	<- boi.org.il
+contentepi.cellcom.co.ilundefined	<- cellcom.co.il
+creativecdn.com	<- kipa.co.il
+cs.media.net	<- kipa.co.il
+cstorage.zoomengage.com	<- maccabi4u.co.il
+csxd.contentsquare.net	<- zoom.us
+ct.pinterest.com	<- isracard.co.il
+d221oziut8gs4d.cloudfront.net	<- maccabi4u.co.il
+d2ichgn6omvugs.cloudfront.net	<- maccabi4u.co.il
+d2lyx5ly60ksu3.cloudfront.net	<- iec.co.il
+d2xerlamkztbb1.cloudfront.net	<- maccabi4u.co.il
+d2z0twhaibasxg.cloudfront.net	<- maccabi4u.co.il
+dc.services.visualstudio.com	<- boi.org.il
+doc-04-4c-sheets.googleusercontent.com	<- maccabi4u.co.il
+dpm.demdex.net	<- onedrive.live.com
+dx.mountain.com	<- zoom.us
+dynamic.criteo.com	<- maccabi4u.co.il
+e.clarity.ms	<- microsoft365.com
+edge.adobedc.net	<- onedrive.live.com
+edge.cofra.me	<- dropbox.com
+embed.vp4.me	<- boi.org.il
+erate-v2-assets.fra1.cdn.digitaloceanspaces.com	<- kipa.co.il
+eus.rubiconproject.com	<- kipa.co.il
+event.dxmdp.com	<- maccabi4u.co.il
+fjord.dropboxstatic.com	<- dropbox.com
+get.geojs.io	<- mizrahi-tefahot.co.il
+google.com	<- dropbox.com
+hb-1055303619817.us-east4.run.app	<- kipa.co.il
+highway.bankleumi.co.il	<- leumi.co.il
+image2.pubmatic.com	<- zoom.us
+images.taboola.com	<- kipa.co.il
+imprlatbmp.taboola.com	<- kipa.co.il
+invstatic101.creativecdn.com	<- icar.co.il
+ixfd2-api.bc0a.com	<- zoom.us
+j.clarity.ms	<- boi.org.il
+jnn-pa.googleapis.com	<- mizrahi-tefahot.co.il
+js.nagich.co.il	<- meuhedet.co.il
+js.stripe.com	<- wetransfer.com
+js.zi-scripts.com	<- zoom.us
+k-aus1.contentsquare.net	<- zoom.us
+ka-f.fontawesome.com	<- mekudeshet.co.il
+l.clarity.ms	<- onedrive.live.com
+la-match.taboola.com	<- kipa.co.il
+la-trc-events.taboola.com	<- kipa.co.il
+la-vid-events.taboola.com	<- kipa.co.il
+la-wf.taboola.com	<- kipa.co.il
+lh3.googleusercontent.com	<- meet.google.com
+live.primis.tech	<- kipa.co.il
+login.live.com	<- onedrive.live.com
+login.microsoftonline.com	<- onedrive.live.com
+logx.optimizely.com	<- zoom.us
+lpcdn-vip.lpsnmedia.net	<- onedrive.live.com
+lpcdn.lpsnmedia.net	<- onedrive.live.com
+lptag.liveperson.net	<- onedrive.live.com
+mail.google.com	<- gmail.com
+match.adsrvr.org	<- kipa.co.il
+match.deepintent.com	<- kipa.co.il
+match.prod.bidr.io	<- kipa.co.il
+match.sharethrough.com	<- kipa.co.il
+media.admob.com	<- kipa.co.il
+media.madatapro.com	<- kipa.co.il
+msftenterprise.sc.omtrdc.net	<- onedrive.live.com
+my.pluro.ai	<- cellcom.co.il
+n.clarity.ms	<- maccabi4u.co.il
+nr-events.taboola.com	<- kipa.co.il
+onesignal.com	<- kavhalacha.co.il
+outlook.live.com	<- outlook.com
+paqd8w-c2f6396bdcba3809-isracard.wix-host.com	<- isracard.co.il
+partners.tremorhub.com	<- zoom.us
+pbs.yahoo.com	<- kipa.co.il
+pilot.wizzo.media	<- 7brachot.co.il
+ping.chartbeat.net	<- icar.co.il
+pixel-config.reddit.com	<- zoom.us
+pixel-us-east.rubiconproject.com	<- kipa.co.il
+pixel.byspotify.com	<- zoom.us
+pixel.tapad.com	<- kipa.co.il
+pixel.wp.com	<- marathonx.co.il
+pixels.spotify.com	<- zoom.us
+play.vidyard.com	<- onedrive.live.com
+pm-widget.taboola.com	<- kipa.co.il
+portal.radwarebotmanager.com	<- fibi.co.il
+pps.creditguard.co.il	<- iec.co.il
+psb.taboola.com	<- hidabroot.org
+publisher.liveperson.net	<- onedrive.live.com
+px.adentifi.com	<- zoom.us
+radar.wizzo.media	<- hidabroot.org
+rep.erate.co.il	<- kipa.co.il
+report.c1101.gbqofs.io	<- cellcom.co.il
+report.iec.gbqofs.io	<- iec.co.il
+report.leumit.gbqofs.io	<- leumit.co.il
+report.maccabi.gbqofs.io	<- maccabi4u.co.il
+res.public.onecdn.static.microsoft	<- outlook.com
+rum.hlx.page	<- onedrive.live.com
+s.c.appier.net	<- kipa.co.il
+s.company-target.com	<- zoom.us
+s.go-mpulse.net	<- leumit.co.il
+s.pinimg.com	<- isracard.co.il
+s.w.org	<- marry.org.il
+s.yimg.jp	<- zoom.us
+scout-cdn.salesloft.com	<- zoom.us
+scout.salesloft.com	<- zoom.us
+secure.adnxs.com	<- isracard.co.il
+segments.company-target.com	<- zoom.us
+serve.eratead.com	<- kipa.co.il
+ssl.google-analytics.com	<- meet.google.com
+sslwidget.criteo.com	<- maccabi4u.co.il
+ssum.casalemedia.com	<- kipa.co.il
+static-assets.fs.liveperson.com	<- onedrive.live.com
+static.chartbeat.com	<- icar.co.il
+static.criteo.net	<- icar.co.il
+static.doubleclick.net	<- mizrahi-tefahot.co.il
+static.qovani.com	<- kipa.co.il
+static.smoove.io	<- boi.org.il
+static.wixstatic.com	<- isracard.co.il
+stats.wp.com	<- marathonx.co.il
+storage.googleapis.com	<- meet.google.com
+sync.intentiq.com	<- kipa.co.il
+sync.mathtag.com	<- kipa.co.il
+sync.srv.stackadapt.com	<- kipa.co.il
+sync.taboola.com	<- kipa.co.il
+t.adx.opera.com	<- kipa.co.il
+t.contentsquare.net	<- zoom.us
+t.oa.opera.com	<- kipa.co.il
+tag-logger.demandbase.com	<- zoom.us
+tag.demandbase.com	<- zoom.us
+tags.creativecdn.com	<- maccabi4u.co.il
+tags.dxmdp.com	<- icar.co.il
+tags.srv.stackadapt.com	<- zoom.us
+target.microsoft.com	<- onedrive.live.com
+target.wizzo.media	<- hidabroot.org
+teams.public.onecdn.static.microsoft	<- teams.microsoft.com
+token.rubiconproject.com	<- kipa.co.il
+tr.dxmcdn.com	<- maccabi4u.co.il
+tracking-api.g2.com	<- zoom.us
+tracking.g2crowd.com	<- zoom.us
+translate-pa.googleapis.com	<- maccabi4u.co.il
+translate.google.com	<- maccabi4u.co.il
+translate.googleapis.com	<- maccabi4u.co.il
+trkn.us	<- zoom.us
+uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net	<- onedrive.live.com
+ups.analytics.yahoo.com	<- kipa.co.il
+us.gimp.zeronaught.com	<- meuhedet.co.il
+utt.impactcdn.com	<- zoom.us
+v11cf13hx0.execute-api.eu-west-1.amazonaws.com	<- cellcom.co.il
+va-vip.v.liveperson.net	<- onedrive.live.com
+vidstat.taboola.com	<- kipa.co.il
+wabi-west-europe-api.analysis.windows.net	<- boi.org.il
+wf.taboola.com	<- kipa.co.il
+widget.eu.criteo.com	<- maccabi4u.co.il
+workspace.google.com	<- meet.google.com
+www.bankleumi.co.il	<- leumi.co.il
+www.googleoptimize.com	<- mizrahi-tefahot.co.il
+www.microsoft.com	<- onedrive.live.com
+www.paypalobjects.com	<- paypal.com
+www.recaptcha.net	<- paypal.com
+www.redditstatic.com	<- zoom.us
+www.temu.com	<- kipa.co.il
+www.virtualspirits.co.il	<- icar.co.il
+www.virtualspirits.com	<- icar.co.il
+www.wizzo.co.il	<- 7brachot.co.il
+www.zoom.com	<- zoom.us
+ynet-pic1.yit.co.il	<- icar.co.il
+zoom.sjv.io	<- zoom.us
+zstorage.zoomengage.com	<- maccabi4u.co.il

@@ -1,0 +1,139 @@
+{
+ "categories": [
+  {
+   "name": "שידוכים",
+   "domains": [
+    "hashadchan.co.il",
+    "mekudeshet.co.il",
+    "marry.org.il",
+    "hameorasim.com",
+    "goldate.co.il",
+    "beshahatova.com",
+    "maagarshiduchim.com",
+    "shidduchsmart.com",
+    "7brachot.co.il"
+   ]
+  },
+  {
+   "name": "בנקים",
+   "domains": [
+    "bankhapoalim.co.il",
+    "leumi.co.il",
+    "mizrahi-tefahot.co.il",
+    "discountbank.co.il",
+    "fibi.co.il",
+    "onezerobank.com",
+    "bankjerusalem.co.il",
+    "otsar.co.il",
+    "massad.co.il",
+    "mercantile.co.il"
+   ]
+  },
+  {
+   "name": "אשראי ותשלומים",
+   "domains": [
+    "isracard.co.il",
+    "max.co.il",
+    "cal-online.co.il",
+    "bitpay.co.il",
+    "payboxapp.com",
+    "paypal.com"
+   ]
+  },
+  {
+   "name": "בריאות",
+   "domains": [
+    "meuhedet.co.il",
+    "clalit.co.il",
+    "maccabi4u.co.il",
+    "leumit.co.il",
+    "health.gov.il",
+    "gov.il"
+   ]
+  },
+  {
+   "name": "ממשלה ומיסוי",
+   "domains": [
+    "gov.il",
+    "my.gov.il",
+    "btl.gov.il",
+    "taxes.gov.il",
+    "kolzchut.org.il",
+    "boi.org.il",
+    "cma.gov.il",
+    "justice.gov.il",
+    "police.gov.il",
+    "cbs.gov.il",
+    "govmap.gov.il"
+   ]
+  },
+  {
+   "name": "חשבונות ותשתיות",
+   "domains": [
+    "iec.co.il",
+    "mekorot.co.il",
+    "israelpost.co.il",
+    "bezeq.co.il",
+    "partner.co.il",
+    "cellcom.co.il",
+    "hot.net.il"
+   ]
+  },
+  {
+   "name": "תחבורה וניווט",
+   "domains": [
+    "ravkavonline.co.il",
+    "moovitapp.com",
+    "waze.com",
+    "rail.co.il",
+    "bus.gov.il",
+    "mot.gov.il"
+   ]
+  },
+  {
+   "name": "דואר ועבודה",
+   "domains": [
+    "gmail.com",
+    "outlook.com",
+    "office.com",
+    "microsoft365.com",
+    "onedrive.live.com",
+    "drive.google.com",
+    "docs.google.com",
+    "dropbox.com",
+    "wetransfer.com",
+    "zoom.us",
+    "meet.google.com",
+    "teams.microsoft.com"
+   ]
+  },
+  {
+   "name": "רכב ורישוי",
+   "domains": [
+    "gov.il",
+    "yad2.co.il",
+    "icar.co.il",
+    "madlan.co.il"
+   ]
+  },
+  {
+   "name": "הלכה ותורה",
+   "domains": [
+    "kavhalacha.co.il",
+    "kipa.co.il",
+    "hidabroot.org",
+    "sefaria.org",
+    "hebrewbooks.org",
+    "din.org.il",
+    "yeshiva.org.il"
+   ]
+  },
+  {
+   "name": "האתרים שלי",
+   "domains": [
+    "marathonx.co.il",
+    "matan-demo.onrender.com"
+   ]
+  }
+ ]
+}
