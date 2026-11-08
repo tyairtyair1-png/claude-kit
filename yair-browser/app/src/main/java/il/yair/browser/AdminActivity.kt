@@ -17,7 +17,7 @@ class AdminActivity : ComponentActivity() {
         super.onCreate(b)
         store = RulesStore(this)
         col = LinearLayout(this).apply { orientation = LinearLayout.VERTICAL; setPadding(24, 24, 24, 48); layoutDirection = View.LAYOUT_DIRECTION_RTL }
-        setContentView(ScrollView(this).apply { addView(col) })
+        setContentView(ScrollView(this).apply { addView(col); applySystemInsets() })
         render()
     }
 

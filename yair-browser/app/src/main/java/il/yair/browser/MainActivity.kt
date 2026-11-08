@@ -22,6 +22,9 @@ class MainActivity : ComponentActivity() {
     private lateinit var progress: ProgressBar
     private lateinit var msg: TextView
     @Volatile private var topSite: String? = null
+    private lateinit var gate: Gate
+    private lateinit var paywall: LinearLayout
+    private lateinit var priceView: TextView
 
     override fun onCreate(b: Bundle?) {
         super.onCreate(b)
@@ -44,7 +47,17 @@ class MainActivity : ComponentActivity() {
         home = ScrollView(this)
         root.addView(bar); root.addView(progress, LinearLayout.LayoutParams(-1, 8)); root.addView(msg)
         root.addView(home, LinearLayout.LayoutParams(-1, 0, 1f)); root.addView(web, LinearLayout.LayoutParams(-1, 0, 1f))
-        setContentView(root)
+        root.applySystemInsets()
+        val frame = FrameLayout(this)
+        frame.addView(root, FrameLayout.LayoutParams(-1, -1))
+        paywall = buildPaywall(); frame.addView(paywall, FrameLayout.LayoutParams(-1, -1))
+        setContentView(frame)
+        gate = GateFactory.create(this)
+        gate.start { open ->
+            paywall.visibility = if (open) View.GONE else View.VISIBLE
+            if (!open) { web.loadUrl("about:blank"); showHome() }
+            priceView.text = gate.priceText ?: "טוען מחיר…"
+        }
         setupWeb()
         buildHome()
         showHome()
@@ -53,7 +66,22 @@ class MainActivity : ComponentActivity() {
         })
     }
 
-    override fun onResume() { super.onResume(); buildHome() }
+    override fun onResume() { super.onResume(); buildHome(); if (::gate.isInitialized) gate.refresh() }
+    override fun onDestroy() { if (::gate.isInitialized) gate.stop(); super.onDestroy() }
+
+    private fun buildPaywall(): LinearLayout = LinearLayout(this).apply {
+        orientation = LinearLayout.VERTICAL; gravity = Gravity.CENTER; setBackgroundColor(0xFF1F4E79.toInt())
+        layoutDirection = View.LAYOUT_DIRECTION_RTL; setPadding(48, 48, 48, 48); isClickable = true; applySystemInsets()
+        fun tv(t: String, sz: Float, c: Int = 0xFFFFFFFF.toInt()) = TextView(context).apply { text = t; textSize = sz; setTextColor(c); gravity = Gravity.CENTER; setPadding(0, 12, 0, 12) }
+        addView(ImageView(context).apply { setImageResource(R.mipmap.ic_launcher) }, LinearLayout.LayoutParams(220, 220))
+        addView(tv("Yair Browser", 28f))
+        addView(tv("גלישה בטוחה באתרים מאושרים בלבד", 18f))
+        priceView = tv("", 22f, 0xFFFFD866.toInt()); addView(priceView)
+        addView(Button(context).apply { text = "הרשמה למנוי חודשי"; setOnClickListener { gate.buy() } })
+        addView(Button(context).apply { text = "כבר נרשמתי? בדיקה מחדש"; setOnClickListener { gate.refresh() } })
+        addView(Button(context).apply { text = "ניהול מנוי ב-Google Play"; setOnClickListener { gate.manage() } })
+        addView(tv("המנוי מתחדש אוטומטית מדי חודש ואפשר לבטל בכל עת ב-Google Play.", 13f))
+    }
 
     private fun setupWeb() {
         web.settings.apply {

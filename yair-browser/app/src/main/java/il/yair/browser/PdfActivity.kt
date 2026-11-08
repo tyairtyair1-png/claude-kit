@@ -18,7 +18,7 @@ class PdfActivity : ComponentActivity() {
         super.onCreate(b)
         val file = File(intent.getStringExtra("path") ?: return finish())
         val col = LinearLayout(this).apply { orientation = LinearLayout.VERTICAL; setBackgroundColor(Color.DKGRAY) }
-        setContentView(ScrollView(this).apply { addView(col) })
+        setContentView(ScrollView(this).apply { addView(col); applySystemInsets() })
         try {
             pfd = ParcelFileDescriptor.open(file, ParcelFileDescriptor.MODE_READ_ONLY)
             val r = PdfRenderer(pfd!!).also { renderer = it }
