@@ -39,4 +39,10 @@ class PolicyTest {
         val q = Policy(listOf(Rule("gov.il", true)), emptyList(), setOf("gov.il"))
         assertEquals(Decision.BLOCK_HOST, q.decide("https://gov.il/"))
     }
+    @Test fun exactInfraHost() {
+        val q = Policy(listOf(Rule("www.google.com", false)), emptyList(), emptySet())
+        assertEquals(Decision.ALLOW, q.decide("https://www.google.com/search?q=x"))
+        assertEquals(Decision.BLOCK_HOST, q.decide("https://mail.google.com/"))
+        assertEquals(Decision.BLOCK_HOST, q.decide("https://a.www.google.com/"))
+    }
 }

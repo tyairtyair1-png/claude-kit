@@ -53,6 +53,8 @@ class AdminActivity : ComponentActivity() {
         title("מותרים כרגע")
         val removed = store.removedBase()
         store.categories.flatMap { it.domains }.distinct().filter { it !in removed }.forEach { d -> entry(d, d) }
+        title("דומיינים נלווים (התחברות, CAPTCHA, פונטים) — מארח מדויק")
+        store.infra.filter { it !in removed }.forEach { d -> entry(d, d) }
         store.extraRaw().sorted().forEach { e -> entry(e.removePrefix("="), e) }
         if (removed.isNotEmpty()) {
             title("הוסרו מהרשימה")

@@ -22,7 +22,13 @@ class RulesStore(private val ctx: Context) {
         }
     }
 
-    fun baseRules() = categories.flatMap { it.domains }.distinct().map { Rule(it, true) }
+    /** Exact-host support domains (login, CAPTCHA, fonts, CDN) approved by the owner on 2026-11-08. */
+    val infra: List<String> by lazy {
+        val a = JSONObject(ctx.assets.open("whitelist.json").bufferedReader().readText()).getJSONArray("infra")
+        (0 until a.length()).map(a::getString)
+    }
+    fun baseRules() = categories.flatMap { it.domains }.distinct().map { Rule(it, true) } +
+        infra.filter { h -> categories.none { h in it.domains } }.map { Rule(it, false) }
     fun removedBase(): Set<String> = strSet("removed")
     /** extra entries: "host" = host+subdomains (added manually), "=host" = exact host only (approved third party). */
     fun extraRules() = strSet("extra").map { if (it.startsWith("=")) Rule(it.drop(1), false) else Rule(it, true) }

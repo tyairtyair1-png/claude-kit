@@ -65,7 +65,7 @@ class MainActivity : ComponentActivity() {
             safeBrowsingEnabled = true
         }
         CookieManager.getInstance().setAcceptThirdPartyCookies(web, true)
-        web.setDownloadListener { _, _, _, _, _ -> toast("הורדת קבצים אינה מופעלת") }
+        web.setDownloadListener { url, ua, _, mime, _ -> openPdf(url, ua, mime) }
         // Service workers fetch outside the page client: apply the same policy.
         ServiceWorkerController.getInstance().setServiceWorkerClient(object : ServiceWorkerClient() {
             override fun shouldInterceptRequest(r: WebResourceRequest): WebResourceResponse? = check(r.url.toString(), false)
@@ -138,6 +138,25 @@ class MainActivity : ComponentActivity() {
         val extras = store.extraRules().map { it.host }
         if (extras.isNotEmpty()) add("נוספו על ידי", extras)
         home.removeAllViews(); home.addView(col)
+    }
+
+    /** Only PDFs, only from allowed HTTPS hosts; downloaded to app cache and shown in-app. */
+    private fun openPdf(url: String, ua: String, mime: String?) {
+        if (store.policy().decide(url) != Decision.ALLOW || !(mime.orEmpty().contains("pdf") || url.substringBefore('?').endsWith(".pdf", true))) {
+            toast("רק קובצי PDF מאתרים מורשים"); return
+        }
+        val cookie = CookieManager.getInstance().getCookie(url)
+        Thread {
+            try {
+                val f = java.io.File(cacheDir, "doc.pdf")
+                val c = java.net.URL(url).openConnection() as java.net.HttpURLConnection
+                c.instanceFollowRedirects = false
+                c.setRequestProperty("User-Agent", ua); if (cookie != null) c.setRequestProperty("Cookie", cookie)
+                if (c.responseCode != 200) throw java.io.IOException("status ${c.responseCode}")
+                c.inputStream.use { i -> f.outputStream().use { o -> i.copyTo(o) } }
+                runOnUiThread { startActivity(Intent(this, PdfActivity::class.java).putExtra("path", f.path)) }
+            } catch (e: Exception) { runOnUiThread { toast("הורדת הקובץ נכשלה") } }
+        }.start()
     }
 
     private fun note(t: String) { msg.text = t; msg.visibility = View.VISIBLE }

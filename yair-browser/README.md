@@ -12,4 +12,4 @@ Allowlist-only browser: WebView + a policy that blocks everything not on `app/sr
 Build: `echo sdk.dir=/path/to/android-sdk > local.properties && ./gradlew :app:testDebugUnitTest :app:assembleDebug`
 Discovery: `node tools/discover.js` (Playwright, home pages only, no logins) -> see `DISCOVERED-DOMAINS.txt`.
 
-Known limits: WebSocket traffic is not filtered by WebView hooks; downloads are disabled; login/personal-area flows must be checked on a real device.
+Known limits: WebSocket traffic is not filtered by WebView hooks; only PDFs from allowed hosts open (in-app viewer); login/personal-area flows must be checked on a real device.

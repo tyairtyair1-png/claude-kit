@@ -1,6 +1,12 @@
 {
  "categories": [
   {
+   "name": "חיפוש",
+   "domains": [
+    "www.google.com"
+   ]
+  },
+  {
    "name": "שידוכים",
    "domains": [
     "hashadchan.co.il",
@@ -135,5 +141,34 @@
     "matan-demo.onrender.com"
    ]
   }
+ ],
+ "infra": [
+  "www.google.com",
+  "www.google.co.il",
+  "accounts.google.com",
+  "apis.google.com",
+  "ssl.gstatic.com",
+  "www.gstatic.com",
+  "fonts.googleapis.com",
+  "fonts.gstatic.com",
+  "lh3.googleusercontent.com",
+  "www.recaptcha.net",
+  "login.microsoftonline.com",
+  "login.live.com",
+  "aadcdn.msauth.net",
+  "aadcdn.msftauth.net",
+  "res.cdn.office.net",
+  "outlook.live.com",
+  "outlook.office.com",
+  "outlook.office365.com",
+  "hcaptcha.com",
+  "newassets.hcaptcha.com",
+  "api.hcaptcha.com",
+  "challenges.cloudflare.com",
+  "cas.avalon.perfdrive.com",
+  "cdn.perfdrive.com",
+  "validate.perfdrive.com",
+  "cdnjs.cloudflare.com",
+  "cdn.jsdelivr.net"
  ]
 }
