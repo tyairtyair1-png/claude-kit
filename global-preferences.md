@@ -21,8 +21,9 @@ Edit it here and push; there is no other copy.
 - TradePilot: `C:\Users\tyair\TradePilot` (trading tool, paper only).
 - MarathonX: `C:\Users\tyair\marathonx-redesign` (course site marathonx.co.il; live server rules in its memory).
 - Trampoline: `C:\Users\tyair\trampoline` (inflatables rental site, Google Apps Script via clasp).
-- WeGive (formerly Matan / מתן, donation platform, domain wegive.co.il): repo `C:\Users\tyair\platform`; working copies in
-  WSL Ubuntu `/root/platform`, `/root/matan-p4`. Live server: Oracle Always Free (Jerusalem), updates itself from
+- WeGive (formerly Matan / מתן, donation platform, domain wegive.co.il): source of truth is GitHub
+  `tyairtyair1-png/platform` branch `main`; work and ship in WSL Ubuntu-24.04 `/root/wt-ship` (reset to `origin/main`
+  first). `C:\Users\tyair\platform`, `/root/platform` and `/root/matan-p4` are old copies: don't read rules from them. Live server: Oracle Always Free (Jerusalem), updates itself from
   GitHub `main` commits signed by the release gate. **Whenever a task touches it, from any folder:** first read
   `<repo>/CLAUDE.md` (binding workflow), `docs/DEPLOY.md` / `docs/COST-PLAN.md` for anything about hosting or costs, and
   the `.claude/skills/*/SKILL.md` the task needs. The release gate is the release check (the separate reviewer step was
@@ -45,8 +46,8 @@ Edit it here and push; there is no other copy.
   need explicit user approval.
 
 ## Shared skills (all computers, all projects)
-- Skills in this repo's `skills/` and in `~/OneDrive/Claude/skills/<name>/` (the extra ones Yair adopted). At the start of a
-  session, copy any that are missing into `~/.claude/skills/`. Design work uses `emil-design-eng` and `impeccable`
+- Skills in this repo's `skills/` and in `~/OneDrive/Claude/skills/<name>/` (the extra ones Yair adopted). If a skill named
+  here is missing from `~/.claude/skills/`, copy it from there. Design work uses `emil-design-eng` and `impeccable`
   (plus `animate`, `design-taste-frontend`, `hallmark`, `review-animations`, `redesign-existing-projects`, `no-ai-slop`,
   `logo-design`, `pixel2motion`, `logo-animation`; `threejs` for real 3D). `anatomy` draws interactive isometric figures; it is slow by design; never publish to its community
   gallery unless he asks.

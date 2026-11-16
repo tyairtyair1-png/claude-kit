@@ -16,7 +16,7 @@ To update later: `cd ~/claude-kit && git pull`, then copy the skills again.
 
 ## Inside
 - `global-preferences.md`: how Yair works with Claude. Hebrew, short "🟣 עדכון" updates, non-developer, screenshots,
-  automatic model choice (Opus for decisions/specs, Sonnet for building, haiku for search), token economy, safety.
+  automatic model choice (quality first: Opus/Fable where they help, Sonnet for mechanical work, Haiku for lookups), token economy, safety.
 - `rules/`: his general writing and work rules (natural Hebrew copywriting, Hebrew in every line, send previews as
   images, borrow competitors' ideas never their words). Read them before writing Hebrew copy.
 - `skills/`: his skills (openly licensed ones keep their LICENSE):
@@ -30,7 +30,7 @@ To update later: `cd ~/claude-kit && git pull`, then copy the skills again.
 - Also included (Yair chose to share them here; credit their original authors where known): animate,
   emil-design-eng, design-taste-frontend (github.com/Leonxlnx/taste-skill), redesign-existing-projects,
   improve-animations, review-animations, audit-context-building, differential-review, sharp-edges,
-  variant-analysis, post-patch-validation, semgrep, wp-plugin-development, wp-project-triage.
+  variant-analysis.
 - `anatomy-example-spec.md`: the Matan donation-machine spec, an example of how to brief Anatomy well.
 
 Each project keeps its own rules in its repo's CLAUDE.md and memory. Never mix projects' rules.
