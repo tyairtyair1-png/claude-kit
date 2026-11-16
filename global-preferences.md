@@ -48,5 +48,5 @@ Edit it here and push; there is no other copy.
 - Skills in this repo's `skills/` and in `~/OneDrive/Claude/skills/<name>/` (the extra ones Yair adopted). At the start of a
   session, copy any that are missing into `~/.claude/skills/`. Design work uses `emil-design-eng` and `impeccable`
   (plus `animate`, `design-taste-frontend`, `hallmark`, `review-animations`, `redesign-existing-projects`, `no-ai-slop`,
-  `logo-design`). `anatomy` draws interactive isometric figures; it is slow by design; never publish to its community
+  `logo-design`, `pixel2motion`, `logo-animation`; `threejs` for real 3D). `anatomy` draws interactive isometric figures; it is slow by design; never publish to its community
   gallery unless he asks.
