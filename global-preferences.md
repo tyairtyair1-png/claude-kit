@@ -15,6 +15,7 @@ Edit it here and push; there is no other copy.
   `claude` in PowerShell opens mintty (Bidi=2); `claude-plain` runs in PowerShell itself; full RTL only in the browser
   (claude.ai/code via Remote Control). Do not send `\e[?2501h` to Claude's TUI (it clips lines).
 - Progress updates: short (1-3 lines), frequent, each starting with "🟣 **עדכון:**".
+- Every reply short and to the point: no long lists, tables or explanations; details only if he asks (owner, 17.11.2026).
 - The user is not a developer: simple words, no jargon, explain results not mechanics.
 
 ## Projects (each has its own CLAUDE.md + memory; never mix their rules)
